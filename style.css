@@ -1,0 +1,107 @@
+@import url('https://googleapis.com');
+
+:root {
+    --text-color: #ffffff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('Assets/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+}
+
+header {
+    display: flex;
+    background: transparent; 
+    color: var(--text-color);
+    padding: 30px 20px;
+    justify-content: flex-end;
+    margin-left: 10%;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    display: inline;
+    color: var(--text-color);
+    text-decoration: none;
+}
+#profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#profile img {
+    width:200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid var(--secondary-color); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+#about {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+#contact {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+#project-heading {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+#projects {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.project {
+    margin-bottom: 20px;
+    padding: 0px;
+}
+#project1-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
